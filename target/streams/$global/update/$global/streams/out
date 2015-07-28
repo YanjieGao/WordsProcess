@@ -1,0 +1,104 @@
+[info] Updating {file:/D:/project/NLP/}nlp...
+[debug] :: resolving dependencies :: default#nlp_2.11;1.0
+[debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
+[debug] 	validate = true
+[debug] 	refresh = false
+[debug] resolving dependencies for configuration 'compile'
+[debug] == resolving dependencies for default#nlp_2.11;1.0 [compile]
+[debug] == resolving dependencies default#nlp_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.11.7 ...
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@727e213a
+[info] Resolving org.scala-lang#scala-library;2.11.7 ...
+[debug] sbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@727e213a
+[debug] 		tried C:\Users\yanjga\.ivy2\local\org.scala-lang\scala-library\2.11.7\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.scala-lang#scala-library;2.11.7
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom
+[debug] 	public: found md file for org.scala-lang#scala-library;2.11.7
+[debug] 		=> https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom (2.11.7)
+[debug] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom
+[debug] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.7!scala-library.pom(pom.original) (746ms)
+[debug] 		tried C:\Users\yanjga\.ivy2\local\org.scala-lang\scala-library\2.11.7\jars\scala-library.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar
+[debug] 	found org.scala-lang#scala-library;2.11.7 in public
+[debug] 	[2.11.7] org.scala-lang#scala-library;2.11.7
+[debug] == resolving dependencies default#nlp_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+[debug] == resolving dependencies default#nlp_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
+[debug] == resolving dependencies default#nlp_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] resolving dependencies for configuration 'runtime'
+[debug] == resolving dependencies for default#nlp_2.11;1.0 [runtime]
+[debug] == resolving dependencies for default#nlp_2.11;1.0 [compile]
+[debug] == resolving dependencies default#nlp_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
+[debug] == resolving dependencies default#nlp_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+[debug] == resolving dependencies default#nlp_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
+[debug] == resolving dependencies default#nlp_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] resolving dependencies for configuration 'test'
+[debug] == resolving dependencies for default#nlp_2.11;1.0 [test]
+[debug] == resolving dependencies for default#nlp_2.11;1.0 [runtime]
+[debug] == resolving dependencies for default#nlp_2.11;1.0 [compile]
+[debug] == resolving dependencies default#nlp_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
+[debug] == resolving dependencies default#nlp_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+[debug] == resolving dependencies default#nlp_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
+[debug] == resolving dependencies default#nlp_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] resolving dependencies for configuration 'provided'
+[debug] == resolving dependencies for default#nlp_2.11;1.0 [provided]
+[debug] resolving dependencies for configuration 'optional'
+[debug] == resolving dependencies for default#nlp_2.11;1.0 [optional]
+[debug] resolving dependencies for configuration 'compile-internal'
+[debug] == resolving dependencies for default#nlp_2.11;1.0 [compile-internal]
+[debug] == resolving dependencies for default#nlp_2.11;1.0 [compile]
+[debug] == resolving dependencies default#nlp_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
+[debug] == resolving dependencies default#nlp_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+[debug] == resolving dependencies default#nlp_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
+[debug] == resolving dependencies default#nlp_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies for default#nlp_2.11;1.0 [optional]
+[debug] == resolving dependencies for default#nlp_2.11;1.0 [provided]
+[debug] resolving dependencies for configuration 'runtime-internal'
+[debug] == resolving dependencies for default#nlp_2.11;1.0 [runtime-internal]
+[debug] == resolving dependencies for default#nlp_2.11;1.0 [runtime]
+[debug] == resolving dependencies for default#nlp_2.11;1.0 [compile]
+[debug] == resolving dependencies default#nlp_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
+[debug] == resolving dependencies default#nlp_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+[debug] == resolving dependencies default#nlp_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
+[debug] == resolving dependencies default#nlp_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies for default#nlp_2.11;1.0 [optional]
+[debug] resolving dependencies for configuration 'test-internal'
+[debug] == resolving dependencies for default#nlp_2.11;1.0 [test-internal]
+[debug] == resolving dependencies for default#nlp_2.11;1.0 [test]
+[debug] == resolving dependencies for default#nlp_2.11;1.0 [runtime]
+[debug] == resolving dependencies for default#nlp_2.11;1.0 [compile]
+[debug] == resolving dependencies default#nlp_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
+[debug] == resolving dependencies default#nlp_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->runtime]
+[debug] == resolving dependencies default#nlp_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->compile]
+[debug] == resolving dependencies default#nlp_2.11;1.0->org.scala-lang#scala-library;2.11.7 [compile->master]
+[debug] == resolving dependencies for default#nlp_2.11;1.0 [optional]
+[debug] == resolving dependencies for default#nlp_2.11;1.0 [provided]
+[debug] resolving dependencies for configuration 'plugin'
+[debug] == resolving dependencies for default#nlp_2.11;1.0 [plugin]
+[debug] resolving dependencies for configuration 'sources'
+[debug] == resolving dependencies for default#nlp_2.11;1.0 [sources]
+[debug] resolving dependencies for configuration 'docs'
+[debug] == resolving dependencies for default#nlp_2.11;1.0 [docs]
+[debug] resolving dependencies for configuration 'pom'
+[debug] == resolving dependencies for default#nlp_2.11;1.0 [pom]
+[debug] resolving dependencies for configuration 'scala-tool'
+[debug] == resolving dependencies for default#nlp_2.11;1.0 [scala-tool]
+[debug] == resolving dependencies default#nlp_2.11;1.0->org.scala-lang#scala-compiler;2.11.7 [scala-tool->default]
+[info] Resolving org.scala-lang#scala-compiler;2.11.7 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.7 {scala-tool=[default, optional(default)]}
+[info] Resolving org.scala-lang#scala-compiler;2.11.7 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-compiler;2.11.7 {scala-tool=[default, optional(default)]}
+[debug] 		tried C:\Users\yanjga\.ivy2\local\org.scala-lang\scala-compiler\2.11.7\ivys\ivy.xml
+[debug] 	local: no ivy file found for org.scala-lang#scala-compiler;2.11.7
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom
+[debug] 	public: found md file for org.scala-lang#scala-compiler;2.11.7
+[debug] 		=> https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom (2.11.7)
+[debug] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.pom
+[debug] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.11.7!scala-compiler.pom(pom.original) (728ms)
+[debug] 		tried C:\Users\yanjga\.ivy2\local\org.scala-lang\scala-compiler\2.11.7\jars\scala-compiler.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.7/scala-compiler-2.11.7.jar
